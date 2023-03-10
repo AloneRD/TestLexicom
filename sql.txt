@@ -1,0 +1,9 @@
+SELECT * FROM Order
+JOIN City on City.id = Order.code_city
+
+
+SELECT * FROM Order
+LEFT JOIN City on City.id = Order.code_city
+
+SELECT * FROM Order
+RIGTH JOIN City on City.id = Order.code_city
